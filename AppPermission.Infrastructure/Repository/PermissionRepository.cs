@@ -1,6 +1,6 @@
-﻿using AppPermission.Domain.DTO;
-using AppPermission.Domain.Entities;
+﻿using AppPermission.Domain.Entities;
 using AppPermission.Domain.Interface;
+using AppPermission.Domain.Model;
 using AppPermission.Infrastructure.Context;
 using AppPermission.Infrastructure.Core;
 using System.Collections.Generic;
@@ -17,14 +17,14 @@ namespace AppPermission.Infrastructure.Repository
             _context = context;
         }
 
-        public List<PermissionDTO> GetPermission()
+        public List<PermissionModel> GetPermission()
         {
             var permission = (from p in _context.Permission
                               join pt in _context.PermissionType
                               on p.PermissionType equals pt.PermissionTypeId
                               orderby p.PermissionId descending
                               where p.Deleted == false
-                              select new PermissionDTO()
+                              select new PermissionModel()
                               {
                                   PermissionId = p.PermissionId,
                                   FirstName = p.FirstName,
@@ -36,14 +36,14 @@ namespace AppPermission.Infrastructure.Repository
             return permission;
         }
 
-        public async Task<PermissionDTO> GetPermissionById(int id)
+        public async Task<PermissionModel> GetPermissionById(int id)
         {
             var permission = (from p in _context.Permission
                               join pt in _context.PermissionType
                               on p.PermissionType equals pt.PermissionTypeId
                               orderby p.PermissionId descending
                               where p.Deleted == false && p.PermissionId == id
-                              select new PermissionDTO()
+                              select new PermissionModel()
                               {
                                   PermissionId = p.PermissionId,
                                   FirstName = p.FirstName,

@@ -14,3 +14,4 @@ C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug
 C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermission.Infrastructure.dll
 C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermission.Infrastructure.pdb
 C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermission.Infrastructure.genruntimeconfig.cache
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermission.Infrastructure.sourcelink.json

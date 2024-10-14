@@ -1,9 +1,8 @@
-﻿using AppPermission.Domain.DTO;
-using AppPermission.Domain.Entities;
+﻿using AppPermission.Domain.Entities;
 using AppPermission.Domain.Interface;
+using AppPermission.Domain.Model;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace AppPermission.Infrastructure.Service
@@ -18,14 +17,14 @@ namespace AppPermission.Infrastructure.Service
             _permissionRepository = permissionRepository;
         }
 
-        public List<PermissionDTO> GetPermissions()
+        public List<PermissionModel> GetPermissions()
         {
             var permissions = _permissionRepository.GetPermission();
 
             return permissions;
         }
 
-        public Task<PermissionDTO> GetPermissionId(int id)
+        public Task<PermissionModel> GetPermissionId(int id)
         {
             var permissions = _permissionRepository.GetPermissionById(id);
             return permissions;

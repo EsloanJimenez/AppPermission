@@ -1,12 +1,11 @@
-﻿using AppPermission.Domain.DTO;
-using AppPermission.Domain.Entities;
+﻿using AppPermission.Domain.Entities;
 using AppPermission.Domain.Interface;
+using AppPermission.Domain.Model;
 using AppPermission.Infrastructure.Context;
 using AppPermission.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace AppPermission.UnitTest.Infrastruture
@@ -46,7 +45,7 @@ namespace AppPermission.UnitTest.Infrastruture
 
             //Assert
             Assert.NotNull(permissions);
-            Assert.IsType<List<PermissionDTO>>(permissions);
+            Assert.IsType<List<PermissionModel>>(permissions);
         }
     }
 }

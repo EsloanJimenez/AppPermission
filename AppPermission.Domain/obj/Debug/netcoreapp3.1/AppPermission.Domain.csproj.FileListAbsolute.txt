@@ -7,3 +7,4 @@ C:\Users\Enriq\source\repos\AppPermission\AppPermission.Domain\obj\Debug\netcore
 C:\Users\Enriq\source\repos\AppPermission\AppPermission.Domain\obj\Debug\netcoreapp3.1\AppPermission.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Enriq\source\repos\AppPermission\AppPermission.Domain\obj\Debug\netcoreapp3.1\AppPermission.Domain.dll
 C:\Users\Enriq\source\repos\AppPermission\AppPermission.Domain\obj\Debug\netcoreapp3.1\AppPermission.Domain.pdb
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Domain\obj\Debug\netcoreapp3.1\AppPermission.Domain.sourcelink.json

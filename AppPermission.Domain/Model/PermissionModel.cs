@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace AppPermission.Domain.DTO
+namespace AppPermission.Domain.Model
 {
-    public class PermissionDTO
+    public class PermissionModel
     {
         public int PermissionId { get; set; }
         public string FirstName { get; set; }

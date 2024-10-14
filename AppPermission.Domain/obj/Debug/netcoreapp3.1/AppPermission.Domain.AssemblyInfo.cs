@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppPermission.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4dba3009668f030aaa96cf44789148f3b69953f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppPermission.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppPermission.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
