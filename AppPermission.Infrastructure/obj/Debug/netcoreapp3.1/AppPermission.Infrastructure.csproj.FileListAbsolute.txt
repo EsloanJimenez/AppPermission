@@ -1,0 +1,16 @@
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\bin\Debug\netcoreapp3.1\AppPermission.Infrastructure.deps.json
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\bin\Debug\netcoreapp3.1\AppPermission.Infrastructure.runtimeconfig.json
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\bin\Debug\netcoreapp3.1\AppPermission.Infrastructure.runtimeconfig.dev.json
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\bin\Debug\netcoreapp3.1\AppPermission.Infrastructure.dll
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\bin\Debug\netcoreapp3.1\AppPermission.Infrastructure.pdb
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\bin\Debug\netcoreapp3.1\AppPermission.Domain.dll
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\bin\Debug\netcoreapp3.1\AppPermission.Domain.pdb
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermission.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermission.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermission.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermission.Infrastructure.AssemblyInfo.cs
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermission.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermi.F18329AF.Up2Date
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermission.Infrastructure.dll
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermission.Infrastructure.pdb
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Infrastructure\obj\Debug\netcoreapp3.1\AppPermission.Infrastructure.genruntimeconfig.cache
