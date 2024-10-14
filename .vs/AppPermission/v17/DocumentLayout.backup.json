@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{939D7D50-FA4B-42BB-A3EF-8812A7FF8C52}|AppPermission.Api\\AppPermission.Api.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.api\\controllers\\permissiontypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939D7D50-FA4B-42BB-A3EF-8812A7FF8C52}|AppPermission.Api\\AppPermission.Api.csproj|solutionrelative:apppermission.api\\controllers\\permissiontypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.infrastructure\\exceptions\\permissionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|solutionrelative:apppermission.infrastructure\\exceptions\\permissionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.infrastructure\\service\\permissiontypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|solutionrelative:apppermission.infrastructure\\service\\permissiontypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939D7D50-FA4B-42BB-A3EF-8812A7FF8C52}|AppPermission.Api\\AppPermission.Api.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.api\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939D7D50-FA4B-42BB-A3EF-8812A7FF8C52}|AppPermission.Api\\AppPermission.Api.csproj|solutionrelative:apppermission.api\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.infrastructure\\service\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|solutionrelative:apppermission.infrastructure\\service\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{6699B026-F144-4975-8160-582B31100232}|AppPermission.Domain\\AppPermission.Domain.csproj|solutionrelative:apppermission.domain\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{939D7D50-FA4B-42BB-A3EF-8812A7FF8C52}|AppPermission.Api\\AppPermission.Api.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.api\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{939D7D50-FA4B-42BB-A3EF-8812A7FF8C52}|AppPermission.Api\\AppPermission.Api.csproj|solutionrelative:apppermission.api\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{939D7D50-FA4B-42BB-A3EF-8812A7FF8C52}|AppPermission.Api\\AppPermission.Api.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{939D7D50-FA4B-42BB-A3EF-8812A7FF8C52}|AppPermission.Api\\AppPermission.Api.csproj|solutionrelative:apppermission.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,14 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.infrastructure\\repository\\permissiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|solutionrelative:apppermission.infrastructure\\repository\\permissiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.infrastructure\\exceptions\\permissionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|solutionrelative:apppermission.infrastructure\\exceptions\\permissionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.infrastructure\\service\\permissiontypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|solutionrelative:apppermission.infrastructure\\service\\permissiontypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1276,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PermissionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Infrastructure\\Repository\\PermissionRepository.cs",
               "RelativeDocumentMoniker": "AppPermission.Infrastructure\\Repository\\PermissionRepository.cs",
@@ -70,12 +74,11 @@
               "RelativeToolTip": "AppPermission.Infrastructure\\Repository\\PermissionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T18:10:43.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T18:10:43.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "IPermissionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Domain\\Interface\\IPermissionRepository.cs",
               "RelativeDocumentMoniker": "AppPermission.Domain\\Interface\\IPermissionRepository.cs",
@@ -83,12 +86,11 @@
               "RelativeToolTip": "AppPermission.Domain\\Interface\\IPermissionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T18:09:30.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T18:09:30.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PermissionService.cs",
               "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Infrastructure\\Service\\PermissionService.cs",
               "RelativeDocumentMoniker": "AppPermission.Infrastructure\\Service\\PermissionService.cs",
@@ -97,6 +99,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T02:15:39.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PermissionController.cs",
+              "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Api\\Controllers\\PermissionController.cs",
+              "RelativeDocumentMoniker": "AppPermission.Api\\Controllers\\PermissionController.cs",
+              "ToolTip": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Api\\Controllers\\PermissionController.cs",
+              "RelativeToolTip": "AppPermission.Api\\Controllers\\PermissionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T02:39:45.759Z",
               "EditorCaption": ""
             }
           ]
@@ -107,20 +122,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PermissionController.cs",
-              "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Api\\Controllers\\PermissionController.cs",
-              "RelativeDocumentMoniker": "AppPermission.Api\\Controllers\\PermissionController.cs",
-              "ToolTip": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Api\\Controllers\\PermissionController.cs",
-              "RelativeToolTip": "AppPermission.Api\\Controllers\\PermissionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAWAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PermissionTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Api\\Controllers\\PermissionTypeController.cs",
+              "RelativeDocumentMoniker": "AppPermission.Api\\Controllers\\PermissionTypeController.cs",
+              "ToolTip": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Api\\Controllers\\PermissionTypeController.cs",
+              "RelativeToolTip": "AppPermission.Api\\Controllers\\PermissionTypeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T02:39:45.759Z",
+              "WhenOpened": "2024-10-14T21:14:37.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "PermissionException.cs",
               "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Infrastructure\\Exceptions\\PermissionException.cs",
               "RelativeDocumentMoniker": "AppPermission.Infrastructure\\Exceptions\\PermissionException.cs",
@@ -128,11 +143,12 @@
               "RelativeToolTip": "AppPermission.Infrastructure\\Exceptions\\PermissionException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:28:57.45Z"
+              "WhenOpened": "2024-10-14T14:28:57.45Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "PermissionTypeService.cs",
               "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Infrastructure\\Service\\PermissionTypeService.cs",
               "RelativeDocumentMoniker": "AppPermission.Infrastructure\\Service\\PermissionTypeService.cs",
@@ -140,7 +156,8 @@
               "RelativeToolTip": "AppPermission.Infrastructure\\Service\\PermissionTypeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T02:32:43.247Z"
+              "WhenOpened": "2024-10-14T02:32:43.247Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -150,7 +167,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "PermissionRepositoryTest.cs",
               "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.UnitTest\\Infrastruture\\PermissionRepositoryTest.cs",
               "RelativeDocumentMoniker": "AppPermission.UnitTest\\Infrastruture\\PermissionRepositoryTest.cs",
@@ -163,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.UnitTest\\UnitTest1.cs",
               "RelativeDocumentMoniker": "AppPermission.UnitTest\\UnitTest1.cs",
@@ -171,12 +188,11 @@
               "RelativeToolTip": "AppPermission.UnitTest\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T16:25:41.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T16:25:41.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Domain\\Core\\BaseEntity.cs",
               "RelativeDocumentMoniker": "AppPermission.Domain\\Core\\BaseEntity.cs",
@@ -188,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Permission.cs",
               "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Domain\\Entities\\Permission.cs",
               "RelativeDocumentMoniker": "AppPermission.Domain\\Entities\\Permission.cs",
@@ -200,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Api\\Startup.cs",
               "RelativeDocumentMoniker": "AppPermission.Api\\Startup.cs",
@@ -212,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "PermissionTypeRepository.cs",
               "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Infrastructure\\Repository\\PermissionTypeRepository.cs",
               "RelativeDocumentMoniker": "AppPermission.Infrastructure\\Repository\\PermissionTypeRepository.cs",
