@@ -29,6 +29,7 @@ namespace AppPermission.Infrastructure.Repository
                                   PermissionId = p.PermissionId,
                                   FirstName = p.FirstName,
                                   LastName = p.LastName,
+                                  PermissionTypeId = pt.PermissionTypeId,
                                   Description = pt.Description,
                                   PermissionDate = p.PermissionDate
                               }).ToList();

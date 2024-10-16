@@ -58,7 +58,7 @@ namespace AppPermission.Api.Controllers
             }
             catch (Exception ex)
             {
-                throw new ArgumentException(ex.Message);
+                return BadRequest();
             }
         }
         [HttpPut("{id}")]
