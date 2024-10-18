@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.infrastructure\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|solutionrelative:apppermission.infrastructure\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939D7D50-FA4B-42BB-A3EF-8812A7FF8C52}|AppPermission.Api\\AppPermission.Api.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939D7D50-FA4B-42BB-A3EF-8812A7FF8C52}|AppPermission.Api\\AppPermission.Api.csproj|solutionrelative:apppermission.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.infrastructure\\core\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9744D8E-9CE1-4E6E-8DA9-CE77959A9E87}|AppPermission.Infrastructure\\AppPermission.Infrastructure.csproj|solutionrelative:apppermission.infrastructure\\core\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6699B026-F144-4975-8160-582B31100232}|AppPermission.Domain\\AppPermission.Domain.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.domain\\interface\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6699B026-F144-4975-8160-582B31100232}|AppPermission.Domain\\AppPermission.Domain.csproj|solutionrelative:apppermission.domain\\interface\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6699B026-F144-4975-8160-582B31100232}|AppPermission.Domain\\AppPermission.Domain.csproj|c:\\users\\enriq\\source\\repos\\apppermission\\apppermission.domain\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6699B026-F144-4975-8160-582B31100232}|AppPermission.Domain\\AppPermission.Domain.csproj|solutionrelative:apppermission.domain\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +35,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Infrastructure\\Service\\BaseService.cs",
+              "RelativeDocumentMoniker": "AppPermission.Infrastructure\\Service\\BaseService.cs",
+              "ToolTip": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Infrastructure\\Service\\BaseService.cs",
+              "RelativeToolTip": "AppPermission.Infrastructure\\Service\\BaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T18:20:40.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Api\\Startup.cs",
+              "RelativeDocumentMoniker": "AppPermission.Api\\Startup.cs",
+              "ToolTip": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Api\\Startup.cs",
+              "RelativeToolTip": "AppPermission.Api\\Startup.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwFYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T22:26:45.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Domain\\Interface\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "AppPermission.Domain\\Interface\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Domain\\Interface\\IBaseRepository.cs",
+              "RelativeToolTip": "AppPermission.Domain\\Interface\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T19:54:50.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Infrastructure\\Core\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "AppPermission.Infrastructure\\Core\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Infrastructure\\Core\\BaseRepository.cs",
+              "RelativeToolTip": "AppPermission.Infrastructure\\Core\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T19:51:59.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Permission.cs",
               "DocumentMoniker": "C:\\Users\\Enriq\\source\\repos\\AppPermission\\AppPermission.Domain\\Entities\\Permission.cs",
               "RelativeDocumentMoniker": "AppPermission.Domain\\Entities\\Permission.cs",

@@ -48,3 +48,8 @@ C:\Users\Enriq\source\repos\AppPermission\AppPermission.Api\obj\Debug\netcoreapp
 C:\Users\Enriq\source\repos\AppPermission\AppPermission.Api\obj\Debug\netcoreapp3.1\AppPermission.Api.pdb
 C:\Users\Enriq\source\repos\AppPermission\AppPermission.Api\obj\Debug\netcoreapp3.1\AppPermission.Api.genruntimeconfig.cache
 C:\Users\Enriq\source\repos\AppPermission\AppPermission.Api\obj\Debug\netcoreapp3.1\AppPermission.Api.sourcelink.json
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Enriq\source\repos\AppPermission\AppPermission.Api\obj\Debug\netcoreapp3.1\AppPermission.Api.MvcApplicationPartsAssemblyInfo.cs

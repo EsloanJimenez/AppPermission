@@ -1,8 +1,6 @@
 ﻿using AppPermission.Domain.Interface;
 using AppPermission.Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace AppPermission.Infrastructure.Core
@@ -21,11 +19,6 @@ namespace AppPermission.Infrastructure.Core
         public virtual async Task<TEntity> GetId(int Id)
         {
             return await _entities.FindAsync(Id);
-        }
-
-        public virtual async Task<bool> Exists(Expression<Func<TEntity, bool>> filter)
-        {
-            return await _entities.AnyAsync(filter);
         }
 
         public virtual async Task Save(TEntity entity)
