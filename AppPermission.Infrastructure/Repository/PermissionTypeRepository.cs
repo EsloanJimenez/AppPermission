@@ -29,18 +29,5 @@ namespace AppPermission.Infrastructure.Repository
 
             return permissionType;
         }
-
-        public override async Task Save(PermissionType permissionType)
-        {
-            await base.Save(permissionType);
-        }
-        public override async Task Update(PermissionType permissionType)
-        {
-            await base.Update(permissionType);
-        }
-        public override async Task Remove(PermissionType permissionType)
-        {
-            await base.Remove(permissionType);
-        }
     }
 }

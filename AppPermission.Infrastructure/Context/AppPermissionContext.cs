@@ -1,4 +1,5 @@
 ﻿using AppPermission.Domain.Entities;
+using AppPermission.Infrastructure.Configuration;
 using Microsoft.EntityFrameworkCore;
 
 namespace AppPermission.Infrastructure.Context
@@ -11,5 +12,11 @@ namespace AppPermission.Infrastructure.Context
         }
         public DbSet<Permission> Permission { get; set; }
         public DbSet<PermissionType> PermissionType { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new PermissionConfiguration());
+            modelBuilder.ApplyConfiguration(new PermissionTypeConfiguration());
+        }
     }
 }

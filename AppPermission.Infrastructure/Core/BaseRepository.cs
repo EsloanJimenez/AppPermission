@@ -7,7 +7,7 @@ namespace AppPermission.Infrastructure.Core
 {
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
     {
-        private readonly AppPermissionContext _context;
+        protected readonly AppPermissionContext _context;
         private DbSet<TEntity> _entities;
 
         public BaseRepository(AppPermissionContext context)

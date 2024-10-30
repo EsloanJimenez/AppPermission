@@ -13,12 +13,12 @@ namespace AppPermission.Infrastructure.Service
             _repository = repository;
             _transitionService = transitionService;
         }
-        public async Task Save(TEntity entity)
+        public virtual async Task Save(TEntity entity)
         {
             await _repository.Save(entity);
             await _transitionService.Commit();
         }
-        public async Task Update(TEntity entity)
+        public virtual async Task Update(TEntity entity)
         {
             await _repository.Update(entity);
             await _transitionService.Commit();

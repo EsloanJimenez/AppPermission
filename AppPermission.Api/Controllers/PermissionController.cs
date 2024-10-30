@@ -1,9 +1,12 @@
-﻿using AppPermission.Domain.Entities;
+﻿using AppPermission.Domain.DTO;
+using AppPermission.Domain.Entities;
 using AppPermission.Infrastructure.Exceptions;
 using AppPermission.Infrastructure.Service;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace AppPermission.Api.Controllers
@@ -13,9 +16,11 @@ namespace AppPermission.Api.Controllers
     public class PermissionController : ControllerBase
     {
         private readonly PermissionService _permissionService;
-        public PermissionController(PermissionService permissionService)
+        private readonly IMapper _mapper;
+        public PermissionController(PermissionService permissionService, IMapper mapper)
         {
             _permissionService = permissionService;
+            _mapper = mapper;
         }
         [HttpGet]
         public async Task<IActionResult> Get()
@@ -23,7 +28,10 @@ namespace AppPermission.Api.Controllers
             try
             {
                 var permission = _permissionService.GetPermissions();
-                return Ok(permission);
+
+                var permissionDTO = _mapper.Map<IEnumerable<PermissionType>>(permission);
+
+                return Ok(permissionDTO);
             }catch(Exception ex)
             {
                 throw new ArgumentException($"mensaje de error: {ex.Message}");
@@ -35,7 +43,10 @@ namespace AppPermission.Api.Controllers
             try
             {
                 var permission = _permissionService.GetPermissionId(id);
-                return Ok(permission);
+
+                var permissionDTO = _mapper.Map<IEnumerable<PermissionType>>(permission);
+
+                return Ok(permissionDTO);
             }
             catch (Exception ex)
             {
@@ -43,14 +54,14 @@ namespace AppPermission.Api.Controllers
             }
         }
         [HttpPost]
-        public async Task<IActionResult> Post(Permission permission)
+        public async Task<IActionResult> Post(PermissionDTO permissionDTO)
         {
             try
             {
-                if (permission is null)
+                if (permissionDTO is null)
                     throw new PermissionException("El permiso no puede ser nulo.");
 
-                //permission.PermissionDate = DateTime.Now;
+                var permission = _mapper.Map<Permission>(permissionDTO);
 
                 await _permissionService.Save(permission);
 
@@ -76,7 +87,7 @@ namespace AppPermission.Api.Controllers
                 throw new ArgumentException(ex.Message);
             }
         }
-        [HttpPut("Delete/{id}")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             try

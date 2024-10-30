@@ -30,18 +30,13 @@ namespace AppPermission.Infrastructure.Service
             return permissions;
         }
 
-        public async Task Save(Permission permission)
-        {
-            await base.Save(permission);
-        }
-
-        public async Task Update(Permission permission)
+        public override async Task Update(Permission permission)
         {
             Permission permissionToUpdate = await _permissionRepository.GetId(permission.PermissionId);
 
             permissionToUpdate.FirstName = permission.FirstName;
             permissionToUpdate.LastName = permission.LastName;
-            permissionToUpdate.PermissionType = permission.PermissionType;
+            permissionToUpdate.PermissionTypeId = permission.PermissionTypeId;
             permissionToUpdate.PermissionDate = permission.PermissionDate;
 
             await base.Update(permissionToUpdate);

@@ -8,20 +8,18 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace AppPermission.Infrastructure.Repository
-{
+{ 
     public class PermissionRepository : BaseRepository<Permission>, IPermissionRepository
     {
-        private readonly AppPermissionContext _context;
         public PermissionRepository(AppPermissionContext context) : base(context)
         {
-            _context = context;
         }
 
         public List<PermissionModel> GetPermission()
         {
             var permission = (from p in _context.Permission
                               join pt in _context.PermissionType
-                              on p.PermissionType equals pt.PermissionTypeId
+                              on p.PermissionTypeId equals pt.PermissionTypeId
                               orderby p.PermissionId descending
                               where p.Deleted == false
                               select new PermissionModel()
@@ -34,6 +32,8 @@ namespace AppPermission.Infrastructure.Repository
                                   PermissionDate = p.PermissionDate
                               }).ToList();
 
+
+
             return permission;
         }
 
@@ -41,7 +41,7 @@ namespace AppPermission.Infrastructure.Repository
         {
             var permission = (from p in _context.Permission
                               join pt in _context.PermissionType
-                              on p.PermissionType equals pt.PermissionTypeId
+                              on p.PermissionTypeId equals pt.PermissionTypeId
                               orderby p.PermissionId descending
                               where p.Deleted == false && p.PermissionId == id
                               select new PermissionModel()
@@ -54,19 +54,6 @@ namespace AppPermission.Infrastructure.Repository
                               }).FirstOrDefault();
 
             return permission;
-        }
-
-        public override async Task Save(Permission permission)
-        {
-            await base.Save(permission);
-        }
-        public override async Task Update(Permission permission)
-        {
-            await base.Update(permission);
-        }
-        public override async Task Remove(Permission permission)
-        {
-            await base.Remove(permission);
         }
     }
 }

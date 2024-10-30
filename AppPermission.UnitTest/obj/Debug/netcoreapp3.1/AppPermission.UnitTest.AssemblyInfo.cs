@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppPermission.UnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c9396ca007fd326f601daff7a7d7cdc8cda76d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppPermission.UnitTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppPermission.UnitTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
