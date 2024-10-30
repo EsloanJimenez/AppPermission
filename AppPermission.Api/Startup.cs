@@ -1,5 +1,6 @@
 using AppPermission.Domain.Interface;
 using AppPermission.Infrastructure.Context;
+using AppPermission.Infrastructure.Mappings;
 using AppPermission.Infrastructure.Repository;
 using AppPermission.Infrastructure.Service;
 using Microsoft.AspNetCore.Builder;
@@ -31,7 +32,6 @@ namespace AppPermission.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddCors(options =>
             {
@@ -43,6 +43,9 @@ namespace AppPermission.Api
                                .AllowAnyMethod();
                     });
             });
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddAutoMapper(typeof(AutomapperProfile));
 
             services.AddControllers();
 

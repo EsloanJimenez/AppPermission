@@ -1,5 +1,6 @@
 ﻿using AppPermission.Domain.DTO;
 using AppPermission.Domain.Entities;
+using AppPermission.Domain.Model;
 using AppPermission.Infrastructure.Exceptions;
 using AppPermission.Infrastructure.Service;
 using AutoMapper;
@@ -29,7 +30,7 @@ namespace AppPermission.Api.Controllers
             {
                 var permission = _permissionService.GetPermissions();
 
-                var permissionDTO = _mapper.Map<IEnumerable<PermissionType>>(permission);
+                var permissionDTO = _mapper.Map<IEnumerable<PermissionDTO>>(permission);
 
                 return Ok(permissionDTO);
             }catch(Exception ex)
@@ -44,7 +45,7 @@ namespace AppPermission.Api.Controllers
             {
                 var permission = _permissionService.GetPermissionId(id);
 
-                var permissionDTO = _mapper.Map<IEnumerable<PermissionType>>(permission);
+                var permissionDTO = _mapper.Map<PermissionDTO>(permission);
 
                 return Ok(permissionDTO);
             }
@@ -54,14 +55,12 @@ namespace AppPermission.Api.Controllers
             }
         }
         [HttpPost]
-        public async Task<IActionResult> Post(PermissionDTO permissionDTO)
+        public async Task<IActionResult> Post(Permission permission)
         {
             try
             {
-                if (permissionDTO is null)
+                if (permission is null)
                     throw new PermissionException("El permiso no puede ser nulo.");
-
-                var permission = _mapper.Map<Permission>(permissionDTO);
 
                 await _permissionService.Save(permission);
 

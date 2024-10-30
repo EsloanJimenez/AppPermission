@@ -1,8 +1,6 @@
 ﻿using AppPermission.Domain.Core;
-using AppPermission.Domain.DataAnota;
 using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AppPermission.Domain.Entities
 {

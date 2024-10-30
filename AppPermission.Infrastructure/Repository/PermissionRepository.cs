@@ -32,8 +32,6 @@ namespace AppPermission.Infrastructure.Repository
                                   PermissionDate = p.PermissionDate
                               }).ToList();
 
-
-
             return permission;
         }
 

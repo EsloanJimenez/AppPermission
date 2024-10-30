@@ -1,7 +1,10 @@
-﻿using AppPermission.Infrastructure.Service;
+﻿using AppPermission.Domain.DTO;
+using AppPermission.Infrastructure.Service;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace AppPermission.Api.Controllers
@@ -11,9 +14,11 @@ namespace AppPermission.Api.Controllers
     public class PermissionTypeController : ControllerBase
     {
         private readonly PermissionTypeService _permissionTypeService;
-        public PermissionTypeController(PermissionTypeService permissionTypeService)
+        private readonly IMapper _mapper;
+        public PermissionTypeController(PermissionTypeService permissionTypeService, IMapper mapper)
         {
             _permissionTypeService = permissionTypeService;
+            _mapper = mapper;
         }
         [HttpGet]
         public async Task<IActionResult> Get()
@@ -22,7 +27,9 @@ namespace AppPermission.Api.Controllers
             {
                 var permissionType = _permissionTypeService.GetPermissionType();
 
-                return Ok(permissionType);
+                var permissionTypeDTO = _mapper.Map<IEnumerable<PermissionTypeDTO>>(permissionType);
+
+                return Ok(permissionTypeDTO);
             }catch(Exception ex)
             {
                 throw new ArgumentException("Ah ocurrido un problema." + ex.Message);
